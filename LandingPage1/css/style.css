@@ -1,0 +1,340 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 1600px;
+    margin: 0 auto;
+}
+header{
+
+}
+header nav{
+    display: flex;
+    justify-content: space-between;
+}
+header nav .logo{
+    width: 131px;
+    margin-left: 20px;
+    margin-top: 15px;
+}
+header nav ul.menu{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+} 
+header nav ul.menu :nth-child(5){
+    
+}
+header nav ul.menu li{
+    
+}
+header nav ul.menu li a{
+    padding: 15px 20px;
+    width: 100px;
+    color: black;
+    text-decoration: none;
+}
+header nav ul.menu li a:hover{
+    color: green;
+}
+header .banner1{
+    margin-top: 20px;
+    width: 100%;
+    height: 500px;
+    background: url(https://www.konyasigorta.com.tr/Content/TeklifV1Style/Depo/Item/235/e05271b9-e575-46e7-8bff-8519b4c83d47.jpg);
+    display: flex;
+}
+header .banner2{
+    margin-top: 20px;
+    width: 100%;
+    height: 500px;
+    background: url(https://www.akpaenerji.com/wp-content/uploads/2017/07/banner2-1.jpg);
+    display: flex;
+}
+.black {
+    background-color: rgba(87, 83, 80, 0.5);
+}
+header .banner3{
+    margin-top: 20px;
+    width: 100%;
+    height: 500px;
+    background: url(../resimler/resim1.jpeg);
+    display: flex;
+}
+header .bannerInner{
+    width: 600px;
+    margin: 100px auto;
+    text-align: center;
+}
+header .bannerInner h1{
+    color: green;
+    margin-top: 20px;
+    font-size: 60px;
+}
+header .bannerInner h2{
+    color: white;
+    font-size: 30px;
+}
+header .bannerInner h4{
+    color: white;
+    margin-top: 20px;
+    font-size: 16px;
+}
+header .bannerInner .bannerButtons{
+    margin-top: 30px;
+}
+header .bannerInner .bannerButtons :last-child{
+    margin-left: 7px;
+}
+header .bannerInner .bannerButtons button{
+    padding: 15px 30px;
+    border-radius: 7px;
+    background: transparent;
+    border: 1px solid white;
+    color: white;
+    font-weight: 900;
+}
+header .bannerInner .bannerButtons button:hover{
+    background-color: green;
+    color: white;
+}
+/* #region banner2 */
+header .banner2 .bannerInner{
+    width: 600px;
+    margin: 100px auto;
+    text-align: center;
+}
+header .banner2 .bannerInner h1{
+    color: orange;
+    margin-top: 20px;
+    font-size: 60px;
+}
+header .banner2 .bannerInner h2{
+    color: black;
+    font-size: 30px;
+}
+header .banner2 .bannerInner h4{
+    color: black;
+    margin-top: 20px;
+    font-size: 16px;
+    font-weight: 900;
+}
+header .banner2 .bannerInner .bannerButtons{
+    margin-top: 30px;
+}
+header .banner2 .bannerInner .bannerButtons :last-child{
+    margin-left: 7px;
+}
+header .banner2 .bannerInner .bannerButtons button{
+    padding: 15px 30px;
+    border-radius: 7px;
+    background: transparent;
+    border: 1px solid white;
+    color: white;
+    font-weight: 900;
+}
+header .banner2 .bannerInner .bannerButtons button:hover{
+    background-color: orange;
+    color: white;
+}
+/* #Endregion banner2 */
+/* #region banner1 */
+header .banner1 .bannerInner{
+    width: 600px;
+    margin: 100px auto;
+    text-align: center;
+}
+header .banner1 .bannerInner h1{
+    color: navy;
+    margin-top: 20px;
+    font-size: 60px;
+}
+header .banner1 .bannerInner h2{
+    color: black;
+    font-size: 30px;
+}
+header .banner1 .bannerInner h4{
+    color: black;
+    margin-top: 20px;
+    font-size: 16px;
+    font-weight: 900;
+}
+header .banner1 .bannerInner .bannerButtons{
+    margin-top: 30px;
+}
+header .banner1 .bannerInner .bannerButtons :last-child{
+    margin-left: 7px;
+}
+header .banner1 .bannerInner .bannerButtons button{
+    padding: 15px 30px;
+    border-radius: 7px;
+    background: transparent;
+    border: 1px solid white;
+    color: white;
+    font-weight: 900;
+}
+header .banner1 .bannerInner .bannerButtons button:hover{
+    background-color: navy;
+    color: white;
+}
+/* #Endregion banner1 */
+.aboutUs{
+    margin-top: 50px;
+}
+.aboutUsInner{
+    display: flex;
+    justify-content: space-around;
+}
+.aboutUsInner .text{
+    text-align: center;
+    width: 750px;
+}
+.aboutUsInner .text p{
+    margin-top: 50px;
+    line-height: 25px;
+    font-size: 18px;
+}
+.aboutUsInner .img{
+    
+}
+.aboutUs .aboutUsInner button{
+    padding: 15px 30px;
+    border-radius: 7px;
+    background: green;
+    border: 1px solid green;
+    color: white;
+    font-weight: 900;
+    margin-top: 30px;
+}
+.aboutUs .aboutUsInner button:hover{
+    background-color: navy;
+    color: white;
+}
+.ourPortfolio{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.ourPortfolio h1{
+    text-align: center;
+}
+.ourPortfolioInner{
+    display: flex;
+    margin-top: 150px;
+    justify-content: center;
+}
+.ourPortfolioInner img{
+    margin: 5px 10px;
+}
+.ourPortfolio button{
+    padding: 15px 30px;
+    border-radius: 7px;
+    background: green;
+    border: 1px solid green;
+    color: white;
+    font-weight: 900;
+    margin-top: 60px;
+    width: 220px;
+}
+.ourPortfolio button:hover{
+    background-color: navy;
+    color: white;
+}
+.ourPortfolio button i{
+    margin-left: 10px;
+}
+footer{
+    color: white;
+}
+.footerInner{
+    background-color: #353535;
+}
+.footerInner .footerUst{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-around;
+    padding: 100px;
+}
+.footerInner .footerUst .sol{
+    width: 25%;
+}
+.footerInner .footerUst .orta{
+    width: 30%;
+    margin-left: 30px;
+}
+.footerInner .footerUst .orta h1{
+    margin-bottom: 40px;
+}
+.footerInner .footerUst .sag{
+    width: 30%;
+}
+.footerInner .footerUst .sag h1{
+    margin-bottom: 40px;
+}
+.footerInner .footerUst .sol h1{
+    margin-bottom: 40px;
+}
+.footerInner .footerUst .sol p{
+    line-height: 25px;
+}
+.footerInner .footerUst .sol :nth-child(3){
+    margin-top: 15px;
+}
+.footerInner .footerUst .orta p{
+    line-height: 40px;
+}
+.footerInner .footerUst .orta p i{
+    margin-right: 15px;
+    color: green;
+}
+.footerInner .footerUst .sag p{
+    line-height: 30px;
+    margin-top: 20px;
+}
+.footerInner .footerUst .sag p i{
+    margin-right: 15px;
+    color: green;
+}
+.footerInner .footerUst .sag :nth-child(3){
+    margin-top: 20px;
+}
+.footerInner .footerAlt{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;   
+    padding: 25px 30px;
+    align-items: center;
+}
+.footerInner .footerAlt .icon{
+    display: flex;
+    justify-content: space-between;   
+}
+.footerInner .footerAlt .icon i{
+    width: 15px;
+    height: 15px;
+}
+.footerInner .footerAlt .icon .icon1{
+    padding-left: 3px;
+}
+.footerInner .footerAlt .icon .icon2{
+    padding-top: 2px;
+}
+.footerInner .footerAlt .icon .icon3{
+
+}
+.footerInner .footerAlt .icon .icon4{
+    padding: 1px;
+}
+.footerInner .footerAlt .icon div{
+    margin: 0 10px;
+    border-radius: 50%;
+    border: 1px solid white;
+    padding: 10px; 
+}
+
+
