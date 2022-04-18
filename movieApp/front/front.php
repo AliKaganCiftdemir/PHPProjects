@@ -34,7 +34,7 @@ $listele        = $movie->select("movie", "", "", "", "");
             <?php
             foreach ($listele as $liste) {
             ?>
-                <div class="col-4">
+                <div class="col-3">
                     <div class="card">
                         <img src="<?php echo $liste['resim'] ?>" alt="" class="card-imp-top">
                         <div class="card-body">
